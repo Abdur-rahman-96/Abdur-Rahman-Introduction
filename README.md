@@ -1,110 +1,64 @@
-# Hi, I'm Nazmul 👋
+# Hi, I'm Abdur Rahman
 
-I am an Electrical and Computer Engineering professional with experience in **industrial automation, PLC programming, embedded systems, power electronics, control systems, and AI/ML-based engineering applications**.
+**Embedded Systems Engineer** | M.S. Electrical & Computer Engineering | Beaumont, TX
 
-My work combines hardware, software, and automation to build practical engineering solutions — from PLC-based control systems and HMI tools to embedded motor control, sensor systems, PCB design, and machine learning workflows.
-
----
-
-## 🔧 Technical Skills
-
-### Industrial Automation & Controls
-- Allen-Bradley Studio 5000, RSLogix, FactoryTalk View
-- Siemens, Mitsubishi, Delta PLCs
-- HMI development, alarm systems, I/O mapping
-- VFDs, sensors, instrumentation, safety systems
-- P&ID interpretation and control logic development
-
-### Embedded Systems & Electronics
-- STM32 microcontrollers
-- Embedded C/C++, UART, SPI, I2C, ADC, DAC
-- Motor control, sensor integration, power supply design
-- PCB design and testing using KiCad, Altium, OrCAD, LTspice
-
-### Simulation & Power Systems
-- MATLAB/Simulink
-- PSCAD, ETAP
-- LTspice, HSPICE
-- Power electronics and control system modeling
-
-### Programming & AI/ML
-- Python, MATLAB, Verilog, Shell scripting
-- PyTorch, TensorFlow, scikit-learn
-- Data analysis and automation scripting
-- FPGA tools: Vivado, ModelSim, Cadence Virtuoso
+📧 arahman14@lamar.edu | 🔗 [LinkedIn](https://www.linkedin.com/in/abdur-rahman353/) | 📍 Open to Relocation
 
 ---
 
-## 🚀 Featured Projects
+## About Me
 
-### PLC Alias Logic Generator  
-A VBA-based Excel automation tool that generates PLC tags, alias logic, HMI code, and alarm structures from I/O index data.
+I am an embedded systems engineer with 5+ years of experience designing multilayer PCBs and writing Embedded C/C++ firmware for STM32 ARM Cortex-M targets, from schematic through to field deployment. I enjoy the hardware-firmware boundary where physical constraints meet real-time software decisions.
 
-**Technologies:** VBA, Excel, Studio 5000, FactoryTalk View  
-**Highlights:**
-- Parsed P&ID and I/O index data
-- Generated Allen-Bradley PLC alias logic automatically
-- Reduced manual tag creation and improved consistency
-- Supported rack, slot, channel, and I/O type mapping
+My work spans FreeRTOS task scheduling, low-power embedded design, custom communication protocols, power management circuits, and hardware bring-up using oscilloscopes, logic analyzers, and SWD/JTAG debuggers.
 
 ---
 
-### Solar-Powered Freezer Control System  
-Designed control electronics for a solar-powered freezer system using STM32-based embedded control.
+## Core Skills
 
-**Technologies:** STM32, Embedded C, sensors, motor control, PCB design  
-**Highlights:**
-- Developed sensor-based control logic
-- Designed and tested power supply and control circuits
-- Supported motor control and system monitoring
-- Performed circuit simulation, PCB layout, and hardware testing
-
----
-
-### PLC and LabVIEW Data Collection System  
-Built a PLC-based data acquisition system for deep drilling applications with LabVIEW integration.
-
-**Technologies:** PLC, LabVIEW, sensors, industrial communication  
-**Highlights:**
-- Integrated sensors and PLC logic
-- Built data collection workflow
-- Supported industrial monitoring and reporting
+| Category | Skills |
+|---|---|
+| **Firmware** | Embedded C/C++, FreeRTOS, STM32CubeIDE, bare-metal, low-power sleep/wake, watchdog/diagnostics |
+| **Microcontrollers** | STM32 ARM Cortex-M, Arduino, NVIDIA Jetson Orin Nano, ESP8266 |
+| **Protocols** | SPI, I2C, UART, RS-485 (custom), CAN, Bluetooth BLE, Wi-Fi TCP/IP, MODBUS |
+| **PCB Design** | Altium Designer, KiCad, Cadence OrCAD, multilayer up to 6-layer, EMI filtering, thermal design |
+| **Power Electronics** | DC/DC buck converters, LDO regulators, battery management, solar power systems |
+| **Debug Tools** | SWD/JTAG, GDB, STM32CubeIDE debugger, oscilloscopes, logic analyzers, multimeters |
+| **AI / Edge** | TensorFlow, TensorRT FP16, edge inference on embedded Linux |
+| **Tools** | Git, Python, MATLAB, VBA, Unix Shell |
 
 ---
 
-### Industrial Machine Automation and Troubleshooting  
-Worked on automation, electrical troubleshooting, and process improvement for textile machinery.
+## Featured Projects
 
-**Technologies:** PLCs, VFDs, sensors, protection systems  
-**Highlights:**
-- Programmed and maintained automation systems
-- Troubleshot textile machine electrical faults
-- Worked with VFDs, sensors, power systems, and protection equipment
-- Improved process reliability and maintenance documentation
+### 🔧 [stm32-freertos-freezer-controller](https://github.com/abdur-rahman-ee/stm32-freertos-freezer-controller)
+STM32 ARM Cortex-M embedded controller for a solar-powered PCM freezer using FreeRTOS task scheduling, battery-aware compressor control, I2C EEPROM logging, custom RS-485 communication, and daily data rollover. Built on a custom 6-layer PCB designed in Altium Designer.
 
----
+### 🤖 [edge-ai-fault-diagnosis](https://github.com/abdur-rahman-ee/edge-ai-fault-diagnosis)
+Real-time electrical fault classification pipeline deployed on NVIDIA Jetson Orin Nano using TensorRT FP16. Achieves 93.14% accuracy across 13 fault classes at approximately 126 ms end-to-end latency from GMR sensor array through inference.
 
-## 📌 Current Interests
+### 📡 [iot-current-monitoring-system](https://github.com/abdur-rahman-ee/iot-current-monitoring-system)
+Low-cost IoT current monitoring system using ACS712 Hall-effect sensor, Arduino Uno, and ESP8266 Wi-Fi to transmit RMS current data to ThingSpeak cloud. Includes a MATLAB GUI for real-time and historical data visualization.
 
-- Industrial automation and control systems
-- Embedded systems for real-world applications
-- AI/ML for engineering and automation
-- Power electronics and renewable energy systems
-- Digital twins, simulation, and intelligent control
+### 🔌 [stm32-eeprom-data-logger](https://github.com/abdur-rahman-ee/stm32-eeprom-data-logger)
+Reusable STM32 I2C EEPROM logging library with timestamped entries, daily rollover logic, fault-safe storage, and scheduled server backup over UART.
 
----
+### 📶 [stm32-rs485-driver](https://github.com/abdur-rahman-ee/stm32-rs485-driver)
+Custom RS-485 communication driver for STM32 with packet framing, checksum validation, retransmission handling, and half-duplex direction control.
 
-## 📸 Connect With Me
-
-- LinkedIn: [Your LinkedIn URL]
-- Email: [Your Email]
-- Portfolio: [Optional Website]
-- Location: Arizona, USA
+### 🔢 [verilog-digital-design-labs](https://github.com/abdur-rahman-ee/verilog-digital-design-labs)
+RTL design projects in Verilog including synchronous RAM, 4-bit full adder at CMOS transistor level and RTL, and 32 nm CMOS inverter chain crosstalk simulation in HSPICE.
 
 ---
 
-## ⚙️ Tools I Use
+## Publications
 
-`Python` `MATLAB` `Simulink` `Studio 5000` `FactoryTalk` `VBA`  
-`STM32` `Embedded C` `Verilog` `Vivado` `LTspice` `KiCad` `Altium`  
-`PyTorch` `TensorFlow` `scikit-learn` `ETAP` `PSCAD`
+- **Rahman, A., et al.** — *Sulfide and Selenide-Based HTLs and Ba₃SbI₃ Solar Cells with SCAPS-1D and ML Modelling.* Inorganic Chemistry Communications, 173, 113782 (2025).
+- **Ahmmed, M. F., Rahman, A., et al.** — *Enhancing Energy Efficiency in Wireless Sensor Networks Using Virtual MIMO Technology.* Global Mainstream Journal of Innovation, Engineering & Emerging Technology, 3(02), 27–42 (2024).
+
+---
+
+## Education
+
+- **M.S. Electrical & Computer Engineering** — Lamar University, TX (GPA 3.875) — Jan 2024 to May 2026
+- **B.S. Electrical & Electronics Engineering** — American International University Bangladesh (GPA 3.66) — 2014 to 2018
