@@ -2,15 +2,15 @@
 
 **Embedded Systems Engineer** | M.S. Electrical & Computer Engineering | Beaumont, TX
 
-📧 arahman14@lamar.edu | 🔗 [LinkedIn](https://www.linkedin.com/in/abdur-rahman353/) | 📍 Open to Relocation
+📧 arhm408@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/abdur-rahman353/) | 📍 Open to Relocation
 
 ---
 
 ## About Me
 
-I am an embedded systems engineer with 5+ years of experience designing multilayer PCBs and writing Embedded C/C++ firmware for STM32 ARM Cortex-M targets, from schematic through to field deployment. I enjoy the hardware-firmware boundary where physical constraints meet real-time software decisions.
+I'm an embedded systems engineer with 5+ years of hands-on experience taking hardware from schematic to field deployment: designing multilayer PCBs, writing bare-metal Embedded C firmware for STM32 ARM Cortex-M targets, and validating boards on the bench with oscilloscopes, multimeters, and SWD/JTAG debuggers. I enjoy working at the hardware-firmware boundary, where physical constraints meet real-time software decisions.
 
-My work spans FreeRTOS task scheduling, low-power embedded design, custom communication protocols, power management circuits, and hardware bring-up using oscilloscopes, logic analyzers, and SWD/JTAG debuggers.
+My work spans low-power sleep/wake duty cycling, custom communication protocol design, DC-DC and LDO power-supply design, the full PCB fabrication workflow (Gerber, BOM, pick-and-place, SMT stencil, and hand assembly), and edge-AI deployment on Embedded Linux. I recently completed my M.S. in Electrical and Computer Engineering at Lamar University, where my thesis deployed a real-time electrical fault-diagnosis model on an NVIDIA Jetson Orin Nano.
 
 ---
 
@@ -60,5 +60,5 @@ RTL design projects in Verilog including synchronous RAM, 4-bit full adder at CM
 
 ## Education
 
-- **M.S. Electrical & Computer Engineering** — Lamar University, TX (GPA 3.875) — Jan 2024 to May 2026
-- **B.S. Electrical & Electronics Engineering** — American International University Bangladesh (GPA 3.66) — 2014 to 2018
+- **M.S. Electrical & Computer Engineering** — Lamar University, TX — Jan 2024 to May 2026
+- **B.S. Electrical & Electronics Engineering** — American International University Bangladesh — 2014 to 2018
